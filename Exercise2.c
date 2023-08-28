@@ -28,13 +28,6 @@ int main() {
 
     }
 
-    /*for (int i = 0; i < 12; ++i) {
-        if (totalSalary <= limit) {
-            float taxx = taxpercent / 100 * months[i];
-            tax[i] = taxx;
-        }
-    }*/
-
     printf("month    income     tax\n");
     for (int i = 0; i < 12; ++i) {
         printf(" %d       %.2f     %.2f\n", i, months[i], tax[i]);
