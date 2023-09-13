@@ -14,8 +14,6 @@ int main() {
         int compare = strcmp(stop, string);
         if (compare == 0) {
             break;
-        } else {
-            continue;
         }
     }
     return 0;
