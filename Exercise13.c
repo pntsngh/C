@@ -9,7 +9,7 @@ int main() {
     FILE *fpointer = fopen(input, "r");
 
     if (fpointer == NULL) {
-        fprintf(stderr, "File not found or cannot be opened.\n");
+        fprintf(stderr, "File '%s' not found or cannot be opened.\n", input);
         return 1;
     }
 
